@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator!!</title>
+  <link rel = "stylesheet" type = "text/css" href = "calc.css" />
+  <script src="calc.js"></script>
+</head>
+<body>
+  <div id="container">
+  <div id="calc">
+    <div id="interface">0<div></div></div>
+    <div id="buttons">
+      <button style="top:20px;left:5px" onclick="toPercent()">&#37;</button>
+      <button style="top:20px;left:55px" onClick="toNeg()">&#177;</button>
+      <button id="clear" style="top:20px;left:105px" onclick="clearNum()">AC</button>
+      <button style="top:20px;left:155px" onclick="divi()">&#247;</button>
+      <button style="top:55px;left:5px" onclick="setNum(7)">7</button>
+      <button style="top:55px;left:55px" onclick="setNum(8)">8</button>
+      <button style="top:55px;left:105px" onclick="setNum(9)">9</button>
+      <button style="top:55px;left:155px" onclick="mult()">&#215;</button>
+      <button style="top:90px;left:5px" onclick="setNum(4)">4</button>
+      <button style="top:90px;left:55px" onclick="setNum(5)">5</button>
+      <button style="top:90px;left:155px" onclick="sub()">&#45;</button>
+      <button style="top:90px;left:105px" onclick="setNum(6)">6</button>
+      <button style="top:125px;left:5px" onclick="setNum(1)">1</button>
+      <button style="top:125px;left:55px" onclick="setNum(2)">2</button>
+      <button style="top:125px;left:105px" onclick="setNum(3)">3</button>
+      <button style="top:125px;left:155px" onclick="add()">&#43;</button>
+      <button style="top:160px;left:5px" onclick="addDot()">&#46;</button>
+      <button style="top:160px;left:55px" onclick="setZero()">0</button>
+      <button style="top:160px;left:155px" onclick="equal()">&#61;</button>
+    </div>
+    <div id="colorChange">
+      <button style="top:295px;left:12.5px;background-color:#85FFF9;"
+        onclick="changeBackground(0)"></button>
+      <button style="top:295px;left:60.5px;background-color:#d9b3ff;"
+        onclick="changeBackground(1)"></button>
+      <button style="top:295px;left:110px;background-color:#ffff99;"
+        onclick="changeBackground(2)"></button>
+      <button style="top:295px;left:160px;background-color:#ff9999;"
+        onclick="changeBackground(3)"></button>
+    </div>
+  </div>
+  <div id="info">
+    <p>Drag Calculator anywhere onscreen.<br/><br/>
+    Click on the colors at the bottom of the<br/>
+    calcuator to change the color of the calcuator.<br/><br/>
+    Source code:<br/></p>
+    <a href="calc.css">calc.css</a>&thinsp;|&thinsp;
+    <a href="calc.js">calc.js</a>&thinsp;|&thinsp;
+    <a href="customizeCalc.js">customizeCalc.js</a>
+  </div>
+</div>
+
+
+<script src="customizeCalc.js"></script>
+</body>
+</html>
